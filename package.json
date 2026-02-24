@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "baseline-browser-mapping": "^2.10.0",
+    "caniuse-lite": "^1.0.30001774",
     "dotenv": "^16.4.4",
     "next": "14.1.0",
     "react": "^18",
