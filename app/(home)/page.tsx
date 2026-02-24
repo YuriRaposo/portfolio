@@ -8,33 +8,13 @@ import { WorkWidget } from '@/components/WorkWidget';
 
 const experiences = [
 	{
-		logo: '/Slack.svg',
-		organization: 'Slack',
-		jobTitle: 'Software Engineer',
-		startYear: 2016,
+		logo: '/icons/OIP.jpg',
+		organization: 'Ensign College',
+		jobTitle: 'Software Engineering Student',
+		startYear: 2025,
 		endYear: null,
 	},
-	{
-		logo: '/Spotify.svg',
-		organization: 'Spotify',
-		jobTitle: 'Software Engineer',
-		startYear: 2014,
-		endYear: 2015,
-	},
-	{
-		logo: '/Audible.svg',
-		organization: 'Audible',
-		jobTitle: 'Software Engineer',
-		startYear: 2012,
-		endYear: 2013,
-	},
-	{
-		logo: '/Microsoft.svg',
-		organization: 'Microsoft',
-		jobTitle: 'Software Engineer',
-		startYear: 2010,
-		endYear: 2011,
-	},
+	
 ];
 
 export default function Page() {
@@ -44,21 +24,21 @@ export default function Page() {
 			<div className='flex flex-col gap-6 lg:w-full lg:flex-row lg:items-start lg:justify-between'>
 				<div className='space-y-8 lg:flex-1 dark:text-zinc-400'>
 					<ArticleCard
-						date='2023-12-25'
-						title='Lorem ipsum dolor sit amet'
-						description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue...'
+						date='2026-2-19'
+						title='portfolio website'
+						description='My portfolio website built with Next.js and Tailwind CSS.'
 						url='/articles/sample-article'
 					/>
 					<ArticleCard
-						date='2023-12-25'
-						title='Lorem ipsum dolor sit amet'
-						description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue...'
+						date='2026-1-25'
+						title='youtube clone'
+						description='My youtube clone built with html, Javascript and CSS.'
 						url='/articles/sample-article'
 					/>
 					<ArticleCard
-						date='2024-06-01'
-						title='Lorem ipsum dolor sit amet'
-						description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue...'
+						date='2026-01-15'
+						title='Counting machine'
+						description='My counting machine built with html, Javascript and CSS.'
 						url='/articles/sample-article'
 					/>
 				</div>
@@ -73,12 +53,12 @@ export default function Page() {
 
 					<WorkWidget
 						title={'Work'}
-						content={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Utet massa mi.'}
+						content={'My work experience includes positions at the following:'}
 						experiences={experiences}
 					/>
 					<SkillsWidget
 						title={'Skills'}
-						content={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi.'}
+						content={'My skills include:'}
 						skills={[
 							{ icon: '/icons/html.svg', name: 'HTML', proficiency: 85 },
 							{ icon: '/icons/css.svg', name: 'CSS', proficiency: 65 },
